@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Certificates from "./pages/Certificates";
 import News from "./pages/News";
+import Price from "./pages/Price";
 
 function App() {
   return (
@@ -15,11 +16,12 @@ function App() {
       <Banners />
       <Navbar />
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/certificates" element={<Certificates />} />
         <Route path="/news" element={<News />} />
+        <Route path="/price" element={<Price />} />
       </Routes>
       <Footer />
     </Router>

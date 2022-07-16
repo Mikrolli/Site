@@ -2,7 +2,7 @@ const Links = [
   {
     id: 1,
     name: 'Главная',
-    href: 'home',
+    href: '/',
     current: true
   },
   {
@@ -26,7 +26,7 @@ const Links = [
   {
     id: 6,
     name: 'Цены',
-    href: '#',
+    href: 'price',
     current: false
   },
   {

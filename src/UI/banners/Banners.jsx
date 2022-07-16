@@ -28,7 +28,7 @@ const Banners = () => {
           </div> */}
           <div className="order-2 flex-shrink-0 sm:order-3 sm:ml-3">
             <a
-              href="tel:+79014860602"
+              href="tel:283300"
               className="-mr-1 flex p-2 rounded-md gap-2 hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-white sm:-mr-2"
             >
               <span className="text-white hidden md:inline">283-300</span>
@@ -58,7 +58,7 @@ const Banners = () => {
           </div> */}
           <div className="order-2 flex-shrink-0 sm:order-3 sm:ml-3">
             <a
-              href="tel:+79014860602"
+              href="tel:284400"
               className="-mr-1 flex p-2 rounded-md gap-2 hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-white sm:-mr-2"
             >
               <span className="text-white hidden md:inline">284-400</span>

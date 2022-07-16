@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import { FaInstagram, FaViber, FaWhatsapp, FaVk } from "react-icons/fa";
 import { TbBrandTelegram } from "react-icons/tb";
 
@@ -24,37 +25,43 @@ const Footer = () => {
         </div>
         <div className="lg:col-span-2 flex flex-wrap gap-3 justify-between ">
           <div>
-            <h6 className="font-medium text-gary-400 border-b border-gray-100 pb-3">Меню</h6>
+            <h6 className="font-medium text-gary-400 border-b border-gray-100 pb-3">
+              Меню
+            </h6>
             <ul className="flex flex-col">
-              <a href="#" className="py-2 text-sm">
+              <NavLink to="/" className="py-2 text-sm">
                 Главная
-              </a>
-              <a to="/about" className="py-2 text-sm">
+              </NavLink>
+              <NavLink to="/about" className="py-2 text-sm">
                 О компании
-              </a>
-              <a to="/certificates" className="py-2 text-sm">
+              </NavLink>
+              <NavLink to="/certificates" className="py-2 text-sm">
                 Сертификаты
-              </a>
-              <a to="/services" className="py-2 text-sm">
+              </NavLink>
+              <NavLink to="/services" className="py-2 text-sm">
                 Услуги
-              </a>
-              <a to="/price" className="py-2 text-sm">
+              </NavLink>
+              <NavLink to="/price" className="py-2 text-sm">
                 Цены
-              </a>
+              </NavLink>
               <a to="/contact" className="py-2 text-sm">
                 Контакты
               </a>
             </ul>
           </div>
           <div>
-            <h6 className="font-medium text-gary-400 border-b border-gray-100 pb-3">Полезная информация</h6>
+            <h6 className="font-medium text-gary-400 border-b border-gray-100 pb-3">
+              Полезная информация
+            </h6>
             <ul>
               <li className="py-2 text-sm">Политика</li>
-              <li className="py-2 text-sm">Новости</li>
+              <NavLink to='/news' className="py-2 text-sm">Новости</NavLink>
             </ul>
           </div>
           <div>
-            <h6 className="font-medium text-gary-400 border-b border-gray-100 pb-3">Контакты</h6>
+            <h6 className="font-medium text-gary-400 border-b border-gray-100 pb-3">
+              Контакты
+            </h6>
             <ul className="">
               <li className="py-2 text-sm flex items-center gap-2">
                 <a href="tel:+79109739646">283-300</a>

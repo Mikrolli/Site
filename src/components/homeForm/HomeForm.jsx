@@ -8,19 +8,19 @@ const HomeForm = () => {
 
   return (
     <div className="bg-violet-700">
-      <div className="max-w-[1240px] mx-auto px-4 py-4">
-        <div className="">
+      <div className="max-w-[1240px] mx-auto px-4 py-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
           <MyButton
             onClick={() => setTab("sendMessage")}
-            className="bg-blue-500 px-8 py-2 rounded-md text-white border-2 uppercase animate-pulse"
+            className="bg-blue-500 px-8 py-2 rounded-md text-white border-2 uppercase"
           >
-            Оформить заявку на звонок
+            Заявка на звонок
           </MyButton>
           <MyButton
             onClick={() => setTab("sendMaster")}
-            className="bg-white px-8 py-2 mt-2 rounded-md text-black border-2 border-blue-500 uppercase ml-5 animate-pulse"
+            className="bg-white px-8 py-2 rounded-md text-black border-2 border-blue-500 uppercase"
           >
-            Заказать запчасти
+            Заявка на звонок
           </MyButton>
         </div>
         {tab === "sendMessage" && <SendMessage />}
