@@ -30,7 +30,7 @@ const PriceItem = (props) => {
                 {props.pric.price.map((pri) => (
                   <div
                     key={pri.id}
-                    className="py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
+                    className="py-3 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 border-b"
                   >
                     <dt className="text-sm font-medium text-gray-500">
                       {pri.property}
