@@ -46,7 +46,7 @@ const Navbar = () => {
                       <NavLink
                         key={link.id}
                         to={link.href}
-                        className='text-white bg-red-500 rounded-md hover:bg-red-700 hover:text-gray-300  px-3 py-2  text-sm font-medium'
+                        className="text-white bg-red-500 rounded-md hover:bg-red-700 hover:text-gray-300  px-3 py-2  text-sm font-medium"
                       >
                         {link.name}
                       </NavLink>
@@ -61,11 +61,9 @@ const Navbar = () => {
             <div className="px-2 pt-2 pb-3 space-y-1">
               {Links.map((link) => (
                 <NavLink key={link.id} to={link.href}>
-                  <Disclosure.Button
-                  className='text-white hover:bg-red-500 hover:text-gray-300 px-3 py-2 rounded-md text-base font-medium block'
-                  >
+                  <Disclosure.Button className="text-white hover:bg-red-500 hover:text-gray-300 px-3 py-2 rounded-md text-base font-medium block">
                     {link.name}
-                </Disclosure.Button>
+                  </Disclosure.Button>
                 </NavLink>
               ))}
             </div>
@@ -77,17 +75,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-/* 
-{classNames(
-  link.current
-    ? " text-white bg-red-700"
-    : "text-gray-300 hover:bg-red-500 hover:text-white",
-  "px-3 py-2 rounded-md text-sm font-medium"
-)}
- */
-/* {classNames(
-  link.current
-    ? "bg-red-700 text-white"
-    : "text-gray-300 hover:bg-red-500 hover:text-white",
-  "block px-3 py-2 rounded-md text-base font-medium"
-)} */

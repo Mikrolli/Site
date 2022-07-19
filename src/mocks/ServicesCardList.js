@@ -4,16 +4,12 @@ const ServicesCardList = [
     title: 'Ремонт',
     name: 'Стиральных машин',
     img: 'https://delo360.ru/wp-content/uploads/upload/iblock/b1b/b1b6d3a86a10bc8e6868f5c1b34b6f48.jpg',
-    href: 'servicesPage',
-    text: '123'
   },
   {
     id: 2,
     title: 'Ремонт',
     name: 'Электрических плит и духовых шкафов',
     img: 'https://delo360.ru/wp-content/uploads/upload/iblock/b1b/b1b6d3a86a10bc8e6868f5c1b34b6f48.jpg',
-    href: 'servicesPage',
-    text: '321'
   },
   {
     id: 3,

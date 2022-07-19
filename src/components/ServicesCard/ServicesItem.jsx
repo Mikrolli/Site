@@ -1,6 +1,5 @@
 import React from "react";
 import MyButton from "../../UI/button/MyButton";
-import { NavLink } from "react-router-dom";
 
 const ServicesItem = (props) => {
   return (
