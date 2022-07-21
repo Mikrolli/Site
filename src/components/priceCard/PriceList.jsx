@@ -1,4 +1,5 @@
 import React from "react";
+import MyInput from "../../UI/input/MyInput";
 import PriceItem from "./PriceItem";
 
 const PriceList = ({ prices }) => {

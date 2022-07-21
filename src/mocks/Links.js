@@ -38,7 +38,7 @@ const Links = [
   {
     id: 8,
     name: 'Контакты',
-    href: '#',
+    href: 'contact',
     current: false
   },
 ]

@@ -67,12 +67,6 @@ const Price = () => {
     setSelectedSort(sort);
   };
 
-  //Loading
-  function Loading() {
-    setIsProductsLoading(true);
-    setIsProductsLoading(false);
-  }
-
   return (
     <div className="max-w-[1240px] mx-auto">
       <div className="">
@@ -221,11 +215,11 @@ const Price = () => {
             <div className="grid grid-cols-1 lg:grid-cols-4 gap-x-8 gap-y-10">
               {/* Filters */}
               <form className="hidden lg:block">
-                <MyInput
+                {/* <MyInput
                   placeholder="Поиск..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                />
+                /> */}
                 {filters.map((section) => (
                   <Disclosure
                     as="div"
@@ -287,6 +281,13 @@ const Price = () => {
 
               {/* Product grid */}
               <div className="lg:col-span-3">
+                <div className="py-4">
+                <MyInput
+                  placeholder="Поиск..."
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                />
+                </div>
                 {sortedAndSearchProducts.length ? (
                   <PriceList prices={sortedAndSearchProducts} />
                 ) : (

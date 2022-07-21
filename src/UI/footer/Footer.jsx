@@ -16,10 +16,18 @@ const Footer = () => {
             реальные цены и высокий уровень сервиса.
           </p>
           <div className="flex justify-between my-6">
-            <FaInstagram size={30} />
-            <FaVk size={30} />
-            <FaViber size={30} />
-            <FaWhatsapp size={30} />
+            <a href="https://www.instagram.com/yar_service/" target="_blank">
+              <FaInstagram size={30} />
+            </a>
+            <a href="https://vk.com/club71865496" target="_blank">
+              <FaVk size={30} />
+            </a>
+            <a href="viber://chat?number=+79023300242">
+              <FaViber size={30} />
+            </a>
+            <a href="whatsapp://send?phone=+79023300242">
+              <FaWhatsapp size={30} />
+            </a>
             <TbBrandTelegram size={30} />
           </div>
         </div>
@@ -55,7 +63,9 @@ const Footer = () => {
             </h6>
             <ul>
               <li className="py-2 text-sm">Политика</li>
-              <NavLink to='/news' className="py-2 text-sm">Новости</NavLink>
+              <NavLink to="/news" className="py-2 text-sm">
+                Новости
+              </NavLink>
             </ul>
           </div>
           <div>
@@ -64,19 +74,21 @@ const Footer = () => {
             </h6>
             <ul className="">
               <li className="py-2 text-sm flex items-center gap-2">
-                <a href="tel:+79109739646">283-300</a>
+                <a href="tel:284400">284-400</a>
               </li>
               <li className="py-2 text-sm flex items-center gap-2">
-                <a href="tel:+79109739646">283-300</a>
+                <a href="tel:283300">283-300</a>
               </li>
               <li className="py-2 text-sm flex items-center gap-2">
-                <a href="tel:+79109739646">283-300</a>
+                <a href="tel:900242">900-242</a>
               </li>
               <li className="py-2 text-sm flex items-center gap-2">
-                <a href="">remont@yar-servise.ru</a>
+                <a href="mailto:remont@yar-servise.ru">remont@yar-servise.ru</a>
               </li>
               <li className="py-2 text-sm flex items-center gap-2">
-                <a href="">manager-zip@yar-servise.ru</a>
+                <a href="mailto:manager-zip@yar-servise.ru">
+                  manager-zip@yar-servise.ru
+                </a>
               </li>
               <li className="py-2 text-sm flex items-center gap-2">
                 г. Ярославль, Ленинградский пр-т, 52в
